@@ -531,7 +531,7 @@ static sqlite3_module xlsxModule = {
 #ifdef _WIN32
 __declspec(dllexport)
 #endif
-int sqlite3_xlsx_init(
+int sqlite3_xlsxvtab_init(
   sqlite3 *db, 
   char **pzErrMsg, 
   const sqlite3_api_routines *pApi
